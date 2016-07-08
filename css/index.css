@@ -1,0 +1,57 @@
+/*recet*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+html {
+    height: 100%;
+}
+body {
+    position: relative;
+    min-height: 100%;
+}
+header, footer {
+    text-align: center;
+}
+footer {
+    height:40px;
+}
+footer p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height:30px;
+    line-height: 30px;
+}
+
+.demo-wrap {
+    margin: 50px 30%;
+}
+.demo-wrap p {
+    margin-top: 20px;
+    padding-top: 5px;
+    border-top: 1px dashed #eee;
+}
+.demo-wrap .icon{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+}
+.demo-wrap .icon-del {
+    background: url(../images/delete.png) no-repeat 0 0 transparent;
+}
+.demo-wrap .ipt-color {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #aaa;
+}
+
+#iconDel {
+    position: relative;
+    left: -20px;
+    border-right: 20px solid transparent;
+    -webkit-filter: drop-shadow(20px 0);
+    filter: drop-shadow(20px 0);
+}
